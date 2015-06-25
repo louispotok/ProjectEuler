@@ -49,7 +49,7 @@ def is_last_day_of_month(dates):
         return True
     if dates['month'] == 2 and dates['day_of_month'] == 29:
         return True
-    if dates['month'] == 2 and dates['day_of_month'] == 28 and dates['year']%4 != 0:
+    if dates['month'] == 2 and dates['day_of_month'] == 28 and dates['year']%4 != 0: # because we have no years divisible by 100 but not 400
         return True
     else:
         return False
