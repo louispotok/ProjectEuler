@@ -1,1 +1,1 @@
-Working on Project Euler in Python.
+Working on Project Euler.
